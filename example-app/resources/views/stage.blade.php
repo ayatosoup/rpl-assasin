@@ -49,11 +49,11 @@
 </head>
 <body>
     <div class="container">
-        <img src="{{ asset('images/17.png') }}" alt="Image 1" class="image image-top-left">
-        <img src="{{ asset('images/17.png') }}" alt="Image 2" class="image image-top-right">
+        <img src="{{ asset('images/rumah.png') }}" alt="Image 1" class="image image-top-left" onclick="goToGameplay()">
+        <img src="{{ asset('images/rumah.png') }}" alt="Image 2" class="image image-top-right" onclick="goToGameplay()">
         <img src="{{ asset('images/rumah.png') }}" alt="Image 3" class="image image-bottom-left" onclick="goToGameplay()">
-        <img src="{{ asset('images/17.png') }}" alt="Image 4" class="image image-bottom-right">
-        <img src="{{ asset('images/17.png') }}" alt="Image 5" class="image image-center">
+        <img src="{{ asset('images/rumah.png') }}" alt="Image 4" class="image image-bottom-right" onclick="goToGameplay()">
+        <img src="{{ asset('images/rumah.png') }}" alt="Image 5" class="image image-center" onclick="goToGameplay()">
     </div>
     <script>
         function goToGameplay() {

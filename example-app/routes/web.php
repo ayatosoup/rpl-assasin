@@ -19,7 +19,7 @@ Route::get('/', function () {
 
 Route::get('/game', function () {
     return view('game');
-});
+})->name('game');
 
 Route::get('/slideshow', function () {
     return view('slideshow');
